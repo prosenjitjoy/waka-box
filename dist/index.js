@@ -863,9 +863,9 @@ module.exports = (function (e, t) {
                 const { name: i, percent: s, text: o } = n;
                 const a = [
                     trimRightStr(i, 10).padEnd(10),
-                    o.padEnd(13),
+                    o.padEnd(14),
                     generateBarChart(s, 21),
-                    String(s.toFixed(1)).padStart(5) + "%"
+                    String(s.toFixed(1)).padStart(4) + "%"
                 ];
                 r.push(a.join(" "));
             }
